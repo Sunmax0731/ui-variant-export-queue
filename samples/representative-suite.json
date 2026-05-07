@@ -1,0 +1,108 @@
+[
+  {
+    "id": "happy-path",
+    "description": "必須項目がそろい、警告もない代表成功ケース。",
+    "input": {
+      "items": [
+        {
+          "id": "happy-path",
+          "componentName": "primary-button",
+          "variant": "hover",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png"
+        }
+      ]
+    },
+    "expected": {
+      "overall": "pass",
+      "counts": {
+        "pass": 1,
+        "warning": 0,
+        "fail": 0
+      }
+    }
+  },
+  {
+    "id": "missing-required",
+    "description": "必須項目が欠落し、失敗として扱うケース。",
+    "input": {
+      "items": [
+        {
+          "id": "missing-required",
+          "variant": "hover",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png"
+        }
+      ]
+    },
+    "expected": {
+      "overall": "fail",
+      "counts": {
+        "pass": 0,
+        "warning": 0,
+        "fail": 1
+      }
+    }
+  },
+  {
+    "id": "warning",
+    "description": "自動判定では進められるが、手動確認を要求するケース。",
+    "input": {
+      "items": [
+        {
+          "id": "warning",
+          "componentName": "primary-button",
+          "variant": "hover",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png",
+          "missingRetina": true
+        }
+      ]
+    },
+    "expected": {
+      "overall": "warning",
+      "counts": {
+        "pass": 0,
+        "warning": 1,
+        "fail": 0
+      }
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "description": "成功、警告、失敗が混在するバッチ検証ケース。",
+    "input": {
+      "items": [
+        {
+          "id": "mixed-pass",
+          "componentName": "primary-button",
+          "variant": "hover",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png"
+        },
+        {
+          "id": "mixed-warning",
+          "componentName": "primary-button",
+          "variant": "hover",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png",
+          "missingRetina": true
+        },
+        {
+          "id": "mixed-fail",
+          "componentName": "primary-button",
+          "density": "2x",
+          "outputPath": "dist/ui/primary-button-hover@2x.png"
+        }
+      ]
+    },
+    "expected": {
+      "overall": "fail",
+      "counts": {
+        "pass": 1,
+        "warning": 1,
+        "fail": 1
+      }
+    }
+  }
+]

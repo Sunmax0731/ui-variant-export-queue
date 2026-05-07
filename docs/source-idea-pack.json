@@ -1,0 +1,32 @@
+{
+  "pickupRank": 55,
+  "domain": "AssetPipeline",
+  "ideaNo": 6,
+  "idea": "UIバリアント書き出しキュー",
+  "repository": "ui-variant-export-queue",
+  "publish": "GitHub Release / BOOTH",
+  "createdIdeaFolder": "D:/AI/AssetPipeline/created_idea_006_ui-variant-export-queue",
+  "zipFile": "D:/AI/AssetPipeline/created_idea_006_ui-variant-export-queue/idea_006_ui-variant-export-queue.zip",
+  "zipDocumentsChecked": [
+    "metadata.json",
+    "README.md",
+    "01_REQUIREMENTS.md",
+    "02_SPECIFICATION.md",
+    "03_DESIGN.md",
+    "04_IMPLEMENTATION_PLAN.md",
+    "05_TEST_PLAN.md",
+    "06_RELEASE_CHECKLIST.md"
+  ],
+  "zipMetadataRepositoryName": "ui-variant-export-queue",
+  "zipMetadataMatchedRepository": true,
+  "existingRepositoryReadmeAtStart": "存在しない",
+  "domainDocsRead": [
+    "D:/AI/IDEAS/AssetPipeline/Design.md",
+    "D:/AI/IDEAS/AssetPipeline/Architecture.md",
+    "D:/AI/IDEAS/AssetPipeline/AGENTS.md",
+    "D:/AI/IDEAS/AssetPipeline/SKILL.md",
+    "D:/AI/AssetPipeline/AGENTS.md",
+    "D:/AI/AssetPipeline/SKILL.md"
+  ],
+  "hostInference": null
+}
