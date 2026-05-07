@@ -1,0 +1,19 @@
+{
+  "name": "ui-variant-export-queue",
+  "title": "UIバリアント書き出しキュー",
+  "domain": "AssetPipeline",
+  "kind": "asset-pipeline",
+  "host": null,
+  "field": "UI素材書き出し",
+  "audience": "UI素材を複数解像度/状態で書き出す制作者",
+  "workflow": "UIパーツ、状態、解像度、出力先、キュー状態を定義して書き出し前に検査する。",
+  "requiredFields": [
+    "componentName",
+    "variant",
+    "density",
+    "outputPath"
+  ],
+  "warningField": "missingRetina",
+  "warningMessage": "高解像度または別状態のバリアント確認が必要です。",
+  "qcdsTarget": "A-以上。closed alphaではS-を基準とする。"
+}
