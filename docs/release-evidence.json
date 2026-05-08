@@ -1,0 +1,32 @@
+{
+  "product": "ui-variant-export-queue",
+  "repository": "Sunmax0731/ui-variant-export-queue",
+  "githubUrl": "https://github.com/Sunmax0731/ui-variant-export-queue",
+  "tag": "v0.1.0-alpha.1",
+  "releaseUrl": "https://github.com/Sunmax0731/ui-variant-export-queue/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "latest": false,
+  "assetCount": 3,
+  "assets": [
+    "ui-variant-export-queue-docs.zip",
+    "manual-test.md",
+    "strict-manual-test-addendum.md"
+  ],
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "cli-release-tool",
+  "manualTest": "not-run-by-codex",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/ui-variant-export-queue",
+    "url": "https://github.com/Sunmax0731/ui-variant-export-queue",
+    "releaseUrl": "https://github.com/Sunmax0731/ui-variant-export-queue/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
+}

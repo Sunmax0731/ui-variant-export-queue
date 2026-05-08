@@ -1,0 +1,11 @@
+{
+  "product": "ui-variant-export-queue",
+  "title": "UIバリアント書き出しキュー",
+  "domain": "AssetPipeline",
+  "ideaNo": 6,
+  "platformType": "cli-release-tool",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
